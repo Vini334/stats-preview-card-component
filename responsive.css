@@ -1,0 +1,42 @@
+@media (max-width: 1190px) {
+  .container{
+    height: 100%;
+  }
+  .card{
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+  }
+  .infos{
+    width: 100%;
+    padding: 30px;
+    gap: 15px;
+    justify-content: center;
+  }
+  .title{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 34px;
+  }
+  .description{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+  .footer{
+    flex-direction: column;
+    gap: 25px;
+    padding-right: 0;
+  }
+  .footer-infos{
+    align-items: center;
+  }
+  .img{
+    width: 100%;
+    max-width: 700px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
+}
